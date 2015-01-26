@@ -1,0 +1,14 @@
+<p>
+  <strong class="color">Commenter:</strong>
+  <%= comment.commenter %>
+</p>
+ 
+<p>
+  <strong class="color">Comment:</strong>
+  <%= comment.body %>
+</p>
+
+<p>
+  <%= button_to 'Destroy Comment', [comment.article, comment],
+               method: :delete, data: { confirm: 'Are you sure?' } %>
+</p>

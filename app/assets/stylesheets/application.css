@@ -1,0 +1,58 @@
+body { padding-top: 20px; }
+
+h1 {text-align:center;
+	color: #0868B1;
+}
+
+
+/* visited link */
+a:visited {
+    color: #309DC7;
+}
+
+p{
+	color:#00695B;
+}
+
+h2 {
+	color:#19769A;
+	text-align:center;
+	text-decoration:underline;
+}
+
+
+.color{
+	  color:#0868B1;
+}
+
+.background{
+	background: url(http://wallpaper-download.net/wallpapers/abstract-wallpapers-simple-abstract-background-wallpaper-33092.jpg),
+        linear-gradient(to right, rgba(255, 255, 255, 0),  rgba(255, 255, 255, 0)),
+        url(http://wallpaper-download.net/wallpapers/abstract-wallpapers-simple-abstract-background-wallpaper-33092.jpg);
+  background-repeat: no-repeat, no-repeat, repeat;
+  background-position: bottom, right, left, right;
+}
+
+table{
+	list-style-type:lower-alpha;
+	color:white;
+	text-align:center;
+}
+
+strong{
+	color:#0868B1;
+}
+
+h2{
+	color:#19769A;
+}
+
+tr{
+	color:#3170A0;
+}
+
+td {
+    height: 21px;
+    vertical-align: top;
+    padding:2px;
+}

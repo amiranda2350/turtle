@@ -1,0 +1,24 @@
+<%= form_for([@article, @article.comments.build]) do |f| %>
+  <p>
+    <%= f.label :commenter %><br>
+    <%= f.text_field :commenter %>
+  </p>
+  <p>
+    <%= f.label :body %><br>
+    <%= f.text_area :body %>
+  </p>
+  <p>
+    <%= f.submit %>
+  </p>
+
+  <script>
+    function deleletconfig() {
+        var del=confirm("Are you sure?");
+        if (del==true){
+            alert ("record deleted")
+        } else {
+            alert("Record Not Deleted")
+        }
+    }
+</script>
+<% end %>
