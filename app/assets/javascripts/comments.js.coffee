@@ -1,1 +1,0 @@
-<%= link_to 'Delete this junk', junk_path(j), :method => :delete, :confirm => 'You sure you want to delete this junk?' %>	
